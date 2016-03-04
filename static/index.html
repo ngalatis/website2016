@@ -1,40 +1,31 @@
 <!DOCTYPE html>
-<html lang="el">
+<html lang="en">
 <head>
     <!-- meta tags -->
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- important for responiveness -->
-    <title>Sevipa Homepage</title>
+    <title>Drupal Camp 2016 - Athens - Greece</title>
+    <meta name="description" content="Drupal Camp 2016 Athens. The biggest Drupal Camp yet! Stay tuned for more. We are building the main site as we speak.">
     <!-- stylesheets -->
-    <link rel="stylesheet" href="assets/css/global.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
     <!-- scripts -->
     <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="uikit/js/uikit.js"></script>
-    <script src="uikit/js/components/sticky.js"></script>
-    <script src="uikit/js/components/slideset.js"></script>
-    <script src="uikit/js/components/tooltip.js"></script>
-    <script src="uikit/js/components/slideshow.js"></script>
+    <script type="text/javascript" src="assets/libs-js/particles.js"></script>
     <script src="assets/js/custom.js"></script>
     <!-- end head -->
 </head>
 <body>
-    <!-- The main navbar with menu -->
-    <section id="navbar">
-        <div class="uk-width-1-1">
-            <nav class="uk-navbar uk-clearfix">
-                <div class="navbar-menu">
-                    <div class="menu-cont">
-                        <ul class="menu">
-                            <li><a href="">menu item</a></li>
-                            <li><a href="">menu item</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </section>
+    <div class="" id="particles-js">
+        
+    </div>
     <div class="">
-        <h1>MICROGLOBALS is alive!</h1>
-    </div>    
+        <h1>Drupal Camp!</h1>
+    </div>
+    <script type="text/javascript">
+        /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+        particlesJS.load('particles-js', 'assets/particles.json', function() {
+          console.log('callback - particles.js config loaded');
+        });
+    </script>
 </body>
 </html>
