@@ -562,42 +562,23 @@ img {
   height: auto;
 }
 
-@media (max-width: 960px) {
-  /* line 47, ../sass/_base.scss */
-  .particles-container {
-    height: 40vh;
-  }
-  /* line 49, ../sass/_base.scss */
-  .particles-container > #particles-js {
-    height: 40vh;
-  }
-  /* line 52, ../sass/_base.scss */
-  .particles-container .logo {
-    margin-left: -62.5px;
-    margin-top: -62.5px;
-  }
-  /* line 55, ../sass/_base.scss */
-  .particles-container .logo img {
-    max-width: 125px;
-  }
-}
-/* line 63, ../sass/_base.scss */
+/* line 47, ../sass/_base.scss */
 .subscription {
   margin-top: 20px;
   width: 100%;
   text-align: center;
 }
-/* line 67, ../sass/_base.scss */
+/* line 51, ../sass/_base.scss */
 .subscription form {
   width: 100%;
   text-align: center;
 }
-/* line 72, ../sass/_base.scss */
+/* line 56, ../sass/_base.scss */
 .subscription form div.mc-field-group,
 .subscription form div.clear {
   display: inline;
 }
-/* line 76, ../sass/_base.scss */
+/* line 60, ../sass/_base.scss */
 .subscription form input[type='email'] {
   display: inline-block;
   width: 70%;
@@ -607,13 +588,13 @@ img {
   transition: all 0.2s;
   font-size: 1.2em;
 }
-/* line 84, ../sass/_base.scss */
+/* line 68, ../sass/_base.scss */
 .subscription form input[type='email']:focus {
   outline: none;
   border-width: 0 0 3px 0;
   border-color: #005fac;
 }
-/* line 90, ../sass/_base.scss */
+/* line 74, ../sass/_base.scss */
 .subscription form input[type='submit'] {
   display: inline-block;
   width: 25%;
@@ -624,36 +605,37 @@ img {
   color: #f5f5f5;
   transition: all 0.2s;
 }
-/* line 99, ../sass/_base.scss */
+/* line 83, ../sass/_base.scss */
 .subscription form input[type='submit']:hover, .subscription form input[type='submit']:focus {
   background: #005fac;
   color: #ffffff;
 }
 
-/* line 110, ../sass/_base.scss */
+/* line 94, ../sass/_base.scss */
 .footer-message {
-  margin: 72px auto 24px auto;
+  margin: 72px auto 100px auto;
   text-align: center;
   max-width: 800px;
 }
 
-/* line 117, ../sass/_base.scss */
+/* line 101, ../sass/_base.scss */
 .footer {
   position: fixed;
   width: 100%;
   bottom: 0;
   left: 0;
 }
-/* line 122, ../sass/_base.scss */
+/* line 106, ../sass/_base.scss */
 .footer .social {
   text-align: center;
   padding: 25px;
+  background: #fff;
 }
-/* line 125, ../sass/_base.scss */
+/* line 110, ../sass/_base.scss */
 .footer .social > li {
   display: inline-block;
 }
-/* line 127, ../sass/_base.scss */
+/* line 112, ../sass/_base.scss */
 .footer .social > li > a {
   text-transform: uppercase;
   font-family: "Montserrat", arial, sans-serif;
@@ -664,9 +646,53 @@ img {
   padding: 25px 10px;
   transition: all 0.2s ease-in;
 }
-/* line 136, ../sass/_base.scss */
+/* line 121, ../sass/_base.scss */
 .footer .social > li > a:hover {
   border-radius: 2px;
   background: #0050a2;
   color: #fff;
+}
+
+@media (max-width: 960px) {
+  /* line 134, ../sass/_base.scss */
+  .particles-container {
+    height: 40vh;
+  }
+  /* line 136, ../sass/_base.scss */
+  .particles-container > #particles-js {
+    height: 40vh;
+  }
+  /* line 139, ../sass/_base.scss */
+  .particles-container .logo {
+    margin-left: -62.5px;
+    margin-top: -62.5px;
+  }
+  /* line 142, ../sass/_base.scss */
+  .particles-container .logo img {
+    max-width: 125px;
+  }
+
+  /* line 149, ../sass/_base.scss */
+  .subscription form input[type='email'] {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+  /* line 153, ../sass/_base.scss */
+  .subscription form input[type='submit'] {
+    width: 100%;
+  }
+
+  /* line 159, ../sass/_base.scss */
+  .footer {
+    border-top: 1px solid #0050a2;
+    box-shadow: 0px -1px 5px rgba(0, 0, 0, 0.25);
+  }
+  /* line 162, ../sass/_base.scss */
+  .footer .social {
+    padding: 10px;
+  }
+  /* line 164, ../sass/_base.scss */
+  .footer .social > li > a {
+    padding: 10px;
+  }
 }
