@@ -636,3 +636,37 @@ img {
   text-align: center;
   max-width: 800px;
 }
+
+/* line 117, ../sass/_base.scss */
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+/* line 122, ../sass/_base.scss */
+.footer .social {
+  text-align: center;
+  padding: 25px;
+}
+/* line 125, ../sass/_base.scss */
+.footer .social > li {
+  display: inline-block;
+}
+/* line 127, ../sass/_base.scss */
+.footer .social > li > a {
+  text-transform: uppercase;
+  font-family: "Montserrat", arial, sans-serif;
+  font-size: 0.7rem;
+  text-decoration: none;
+  color: #0050a2;
+  font-weight: 700;
+  padding: 25px 10px;
+  transition: all 0.2s ease-in;
+}
+/* line 136, ../sass/_base.scss */
+.footer .social > li > a:hover {
+  border-radius: 2px;
+  background: #0050a2;
+  color: #fff;
+}
